@@ -1,0 +1,43 @@
+{
+  "name": "react-project-with-bootstrap-4.0",
+  "version": "1.0.0",
+  "description": "This peoject will contain introduction to react and bootstrap 4",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dessagn/React-Bootstrap-Project.git"
+  },
+  "keywords": [
+    "react",
+    "bootstrap-4.0",
+    "sass"
+  ],
+  "author": "Tom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dessagn/React-Bootstrap-Project/issues"
+  },
+  "homepage": "https://github.com/Dessagn/React-Bootstrap-Project#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
